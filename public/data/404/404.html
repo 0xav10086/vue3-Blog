@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Cyberpunk Error page</title>
+  <meta name="theme-color" content="#101119">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="404.css">
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<section class="error-body">
+  <video preload="auto" class="background" src="./err.mp4" autoplay muted loop></video>
+  <div class="message">
+    <h1 t="404">404</h1>
+    <div class="bottom">
+      <p>You have lost your way</p>
+      <a href="#" id="return-home">return home</a>
+    </div>
+  </div>
+</section>
+<!-- partial -->
+<script>
+  document.getElementById('return-home').addEventListener('click', function(event) {
+    event.preventDefault();
+    window.location.href = '/';
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+/* global.css */
+.el-message-box {
+  --el-messagebox-title-color: var(--text-color);
+  --el-messagebox-border-radius: 4px;
+  --el-messagebox-box-shadow: var(--el-box-shadow);
+  --el-messagebox-font-size: var(--el-font-size-large);
+  --el-messagebox-content-font-size: var(--el-font-size-base);
+  --el-messagebox-content-color: var(--text-color);
+  --el-messagebox-error-font-size: 12px;
+  --el-messagebox-padding-primary: 12px;
+  --el-messagebox-font-line-height: var(--el-font-line-height-primary);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background-color: var(--background-color);
+  border-radius: var(--el-messagebox-border-radius);
+  box-shadow: var(--el-box-shadow);
+  box-sizing: border-box;
+  display: inline-block;
+  font-size: var(--el-messagebox-font-size);
+  overflow: hidden;
+  overflow-wrap: break-word;
+  padding: var(--el-messagebox-padding-primary);
+  position: relative;
+  text-align: left;
+  vertical-align: middle;
+  --el-messagebox-width: var(--my-messagebox-width) !important;
+  width: auto;
+}
