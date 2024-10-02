@@ -3,6 +3,7 @@ import CommonHeader from "../components/CommonHeader.vue";
 import CommonAside from "../components/CommonAside.vue";
 import CommonFooter from "../components/CommonFooter.vue";
 import Live2DModel from "../components/live2d.vue";
+
 </script>
 
 <template>
@@ -13,7 +14,7 @@ import Live2DModel from "../components/live2d.vue";
       </el-aside>
       <el-container class="r-content">
         <common-header />
-        <p>这是书库</p>
+        <p>这是书库，还没写呢</p>
         <live2DModel />
         <CommonFooter />
       </el-container>
